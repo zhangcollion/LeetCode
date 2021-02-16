@@ -4,6 +4,8 @@ from collections import defaultdict
 """
 1. get two islands and remember every points of island
 2. get each in  one island, calc steps to another
+
+====time out
 """
 
 
