@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bf27ba6-2ba0-4d93-a2b1-28b882e52b61" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/countHomogenous.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numSquares.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/countHomogenous.py" afterPath="$PROJECT_DIR$/countHomogenous.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +15,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="countHomogenous.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="countHomogenous.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/countHomogenous.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="numSquares.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/numSquares.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -44,7 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/KNN.py" />
         <option value="$PROJECT_DIR$/KNNtest.py" />
         <option value="$PROJECT_DIR$/PyImproved.py" />
         <option value="$PROJECT_DIR$/DataFrameBasic.py" />
@@ -95,6 +105,7 @@
         <option value="$PROJECT_DIR$/LeetCode/shortestBridge.py" />
         <option value="$PROJECT_DIR$/shortestBridge.py" />
         <option value="$PROJECT_DIR$/countHomogenous.py" />
+        <option value="$PROJECT_DIR$/numSquares.py" />
       </list>
     </option>
   </component>
@@ -103,6 +114,9 @@
     <option name="y" value="127" />
     <option name="width" value="1856" />
     <option name="height" value="1098" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -160,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.countHomogenous">
+  <component name="RunManager" selected="Python.numSquares">
     <configuration name="countHomogenous" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -195,7 +209,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="makeConnected" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="numSquares" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -207,7 +221,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PYLearn" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/makeConnected.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/numSquares.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,19 +261,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.makeConnected" />
-      <item index="1" class="java.lang.String" itemvalue="Python.findRedundantConnection" />
-      <item index="2" class="java.lang.String" itemvalue="Python.smallestStringWithSwaps" />
-      <item index="3" class="java.lang.String" itemvalue="Python.shortestBridge" />
-      <item index="4" class="java.lang.String" itemvalue="Python.countHomogenous" />
+      <item index="0" class="java.lang.String" itemvalue="Python.findRedundantConnection" />
+      <item index="1" class="java.lang.String" itemvalue="Python.smallestStringWithSwaps" />
+      <item index="2" class="java.lang.String" itemvalue="Python.shortestBridge" />
+      <item index="3" class="java.lang.String" itemvalue="Python.countHomogenous" />
+      <item index="4" class="java.lang.String" itemvalue="Python.numSquares" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.countHomogenous" />
-        <item index="1" class="java.lang.String" itemvalue="Python.shortestBridge" />
-        <item index="2" class="java.lang.String" itemvalue="Python.smallestStringWithSwaps" />
-        <item index="3" class="java.lang.String" itemvalue="Python.findRedundantConnection" />
-        <item index="4" class="java.lang.String" itemvalue="Python.makeConnected" />
+        <item index="0" class="java.lang.String" itemvalue="Python.numSquares" />
+        <item index="1" class="java.lang.String" itemvalue="Python.countHomogenous" />
+        <item index="2" class="java.lang.String" itemvalue="Python.shortestBridge" />
+        <item index="3" class="java.lang.String" itemvalue="Python.smallestStringWithSwaps" />
+        <item index="4" class="java.lang.String" itemvalue="Python.findRedundantConnection" />
       </list>
     </recent_temporary>
   </component>
@@ -460,7 +474,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/countHomogenous.py</url>
-          <line>18</line>
+          <line>19</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
@@ -476,21 +490,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DataFrameBasic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/isNStraightHand.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/triangleNumber.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -850,10 +849,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-1282051629/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="245" column="4" lean-forward="false" selection-start-line="245" selection-start-column="4" selection-end-line="245" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/countHomogenous.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numSquares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding />
         </state>
       </provider>

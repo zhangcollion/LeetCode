@@ -6,6 +6,7 @@ class Solution:
         ans = 0
         if not s:
             return ans
+        isinstance(i)
 
         def get_ans(n):
             data = 0
