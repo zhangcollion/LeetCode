@@ -24,7 +24,7 @@ from typing import List
 #             self.parent[idx] = self.find(self.parent[idx])
 #         return self.parent[idx]
 
-
+import collections
 class Solution:
     def restoreArray(self, adjacentPairs: List[List[int]]) -> List[int]:
         n = len(adjacentPairs)
@@ -32,38 +32,19 @@ class Solution:
             return []
         if n == 1:
             return adjacentPairs[0]
-
-        import collections
-        info_adj = collections.defaultdict()
-        A2B = collections.defaultdict(list)
-        B2A = collections.defaultdict(list)
-
-        for i, j in adjacentPairs:
-            if i not in info_adj.keys() or not info_adj:
-                info_adj[i] = 0
-            if j not in info_adj.keys():
-                info_adj[j] = 0
-            info_adj[i] = info_adj[i] + 1
-            info_adj[j] = info_adj[j] + 1
-            A2B[i].append(j)
-            B2A[j].append(i)
-        for i in info_adj.keys():
-            if info_adj[i] == 1:
-                ref = i
-        ans = [ref]
-        while len(ans) <= n:
-            if ref in A2B.keys():
-                for i in A2B[ref]:
-                    if i not in ans:
-                        ans.append(i)
-            if ref in B2A.keys():
-                for i in B2A[ref]:
-                    if i not in ans:
-                        ans.append(i)
-            ref = ans[-1]
-
-        return ans
-
+        dic = collections.defaultdict(list)
+        n = len(adjacentPairs) + 1
+        for x, y in adjacentPairs:
+            dic[x].append(y)
+            dic[y].append(x)
+        head = [k for k, v in dic.items() if len(v) == 1]
+        res = [head[0]]
+        while len(res) < n:
+            i = res[-1]
+            j = dic[i].pop()
+            dic[j].remove(i)
+            res.append(j)
+        return res
 
 
 
