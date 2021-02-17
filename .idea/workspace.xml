@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bf27ba6-2ba0-4d93-a2b1-28b882e52b61" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restoreMatrix.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/camelMatch.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UndergroundSystem.py" afterPath="$PROJECT_DIR$/UndergroundSystem.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkPalindromeFormation.py" afterPath="$PROJECT_DIR$/checkPalindromeFormation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movingCount.py" afterPath="$PROJECT_DIR$/movingCount.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,21 +14,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="UndergroundSystem.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UndergroundSystem.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UndergroundSystem.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="0">
+              <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="restoreMatrix.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/restoreMatrix.py">
+      <file leaf-file-name="camelMatch.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/camelMatch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="62" column="4" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -57,7 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DataFrameBasic.py" />
         <option value="$PROJECT_DIR$/sampleStats.py" />
         <option value="$PROJECT_DIR$/maxRotateFunction.py" />
         <option value="$PROJECT_DIR$/isNStraightHand.py" />
@@ -108,6 +104,7 @@
         <option value="$PROJECT_DIR$/restoreMatrix.py" />
         <option value="$PROJECT_DIR$/movingCount.py" />
         <option value="$PROJECT_DIR$/UndergroundSystem.py" />
+        <option value="$PROJECT_DIR$/camelMatch.py" />
       </list>
     </option>
   </component>
@@ -176,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.UndergroundSystem">
+  <component name="RunManager" selected="Python.camelMatch">
     <configuration name="UndergroundSystem" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -190,6 +187,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PYLearn" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UndergroundSystem.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="camelMatch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PYLearn" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/camelMatch.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -245,37 +259,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="smallestStringWithSwaps" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PYLearn" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/smallestStringWithSwaps.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.smallestStringWithSwaps" />
-      <item index="1" class="java.lang.String" itemvalue="Python.shortestBridge" />
-      <item index="2" class="java.lang.String" itemvalue="Python.countHomogenous" />
-      <item index="3" class="java.lang.String" itemvalue="Python.movingCount" />
-      <item index="4" class="java.lang.String" itemvalue="Python.UndergroundSystem" />
+      <item index="0" class="java.lang.String" itemvalue="Python.shortestBridge" />
+      <item index="1" class="java.lang.String" itemvalue="Python.countHomogenous" />
+      <item index="2" class="java.lang.String" itemvalue="Python.movingCount" />
+      <item index="3" class="java.lang.String" itemvalue="Python.UndergroundSystem" />
+      <item index="4" class="java.lang.String" itemvalue="Python.camelMatch" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.UndergroundSystem" />
-        <item index="1" class="java.lang.String" itemvalue="Python.movingCount" />
-        <item index="2" class="java.lang.String" itemvalue="Python.countHomogenous" />
-        <item index="3" class="java.lang.String" itemvalue="Python.shortestBridge" />
-        <item index="4" class="java.lang.String" itemvalue="Python.smallestStringWithSwaps" />
+        <item index="0" class="java.lang.String" itemvalue="Python.camelMatch" />
+        <item index="1" class="java.lang.String" itemvalue="Python.UndergroundSystem" />
+        <item index="2" class="java.lang.String" itemvalue="Python.movingCount" />
+        <item index="3" class="java.lang.String" itemvalue="Python.countHomogenous" />
+        <item index="4" class="java.lang.String" itemvalue="Python.shortestBridge" />
       </list>
     </recent_temporary>
   </component>
@@ -492,14 +489,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/merge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/power2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -848,14 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/restoreMatrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/checkPalindromeFormation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -872,10 +853,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/restoreMatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/UndergroundSystem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/camelMatch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="62" column="4" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="50" />
           <folding />
         </state>
       </provider>
