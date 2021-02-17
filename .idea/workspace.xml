@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bf27ba6-2ba0-4d93-a2b1-28b882e52b61" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movingCount.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restoreMatrix.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UndergroundSystem.py" afterPath="$PROJECT_DIR$/UndergroundSystem.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkPalindromeFormation.py" afterPath="$PROJECT_DIR$/checkPalindromeFormation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movingCount.py" afterPath="$PROJECT_DIR$/movingCount.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,21 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="UndergroundSystem.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UndergroundSystem.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UndergroundSystem.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="216">
+              <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="movingCount.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/movingCount.py">
+      <file leaf-file-name="restoreMatrix.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restoreMatrix.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -55,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PyImproved.py" />
         <option value="$PROJECT_DIR$/DataFrameBasic.py" />
         <option value="$PROJECT_DIR$/sampleStats.py" />
         <option value="$PROJECT_DIR$/maxRotateFunction.py" />
@@ -82,7 +83,6 @@
         <option value="$PROJECT_DIR$/connectTwoGroups.py" />
         <option value="$PROJECT_DIR$/combinationSum4.py" />
         <option value="$PROJECT_DIR$/cou.py" />
-        <option value="$PROJECT_DIR$/checkPalindromeFormation.py" />
         <option value="$PROJECT_DIR$/longestMountain.py" />
         <option value="$PROJECT_DIR$/slowestKey.py" />
         <option value="$PROJECT_DIR$/checkArithmeticSubarrays.py" />
@@ -104,8 +104,10 @@
         <option value="$PROJECT_DIR$/LeetCode/shortestBridge.py" />
         <option value="$PROJECT_DIR$/shortestBridge.py" />
         <option value="$PROJECT_DIR$/countHomogenous.py" />
-        <option value="$PROJECT_DIR$/UndergroundSystem.py" />
+        <option value="$PROJECT_DIR$/checkPalindromeFormation.py" />
+        <option value="$PROJECT_DIR$/restoreMatrix.py" />
         <option value="$PROJECT_DIR$/movingCount.py" />
+        <option value="$PROJECT_DIR$/UndergroundSystem.py" />
       </list>
     </option>
   </component>
@@ -174,7 +176,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.movingCount">
+  <component name="RunManager" selected="Python.UndergroundSystem">
+    <configuration name="UndergroundSystem" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PYLearn" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UndergroundSystem.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="countHomogenous" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -188,23 +207,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PYLearn" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/countHomogenous.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="findRedundantConnection" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PYLearn" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/findRedundantConnection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -261,19 +263,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.findRedundantConnection" />
-      <item index="1" class="java.lang.String" itemvalue="Python.smallestStringWithSwaps" />
-      <item index="2" class="java.lang.String" itemvalue="Python.shortestBridge" />
-      <item index="3" class="java.lang.String" itemvalue="Python.countHomogenous" />
-      <item index="4" class="java.lang.String" itemvalue="Python.movingCount" />
+      <item index="0" class="java.lang.String" itemvalue="Python.smallestStringWithSwaps" />
+      <item index="1" class="java.lang.String" itemvalue="Python.shortestBridge" />
+      <item index="2" class="java.lang.String" itemvalue="Python.countHomogenous" />
+      <item index="3" class="java.lang.String" itemvalue="Python.movingCount" />
+      <item index="4" class="java.lang.String" itemvalue="Python.UndergroundSystem" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.movingCount" />
-        <item index="1" class="java.lang.String" itemvalue="Python.countHomogenous" />
-        <item index="2" class="java.lang.String" itemvalue="Python.shortestBridge" />
-        <item index="3" class="java.lang.String" itemvalue="Python.smallestStringWithSwaps" />
-        <item index="4" class="java.lang.String" itemvalue="Python.findRedundantConnection" />
+        <item index="0" class="java.lang.String" itemvalue="Python.UndergroundSystem" />
+        <item index="1" class="java.lang.String" itemvalue="Python.movingCount" />
+        <item index="2" class="java.lang.String" itemvalue="Python.countHomogenous" />
+        <item index="3" class="java.lang.String" itemvalue="Python.shortestBridge" />
+        <item index="4" class="java.lang.String" itemvalue="Python.smallestStringWithSwaps" />
       </list>
     </recent_temporary>
   </component>
@@ -477,11 +479,6 @@
           <line>18</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/movingCount.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -495,14 +492,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/maxRotateFunction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="12" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/merge.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -851,14 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/checkPalindromeFormation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Anaconda3/Lib/typing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -867,7 +848,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UndergroundSystem.py">
+    <entry file="file://$PROJECT_DIR$/restoreMatrix.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -875,10 +856,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/checkPalindromeFormation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/movingCount.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UndergroundSystem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding />
         </state>
       </provider>

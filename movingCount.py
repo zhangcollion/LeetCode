@@ -3,12 +3,12 @@ class Solution:
         if k <= 0:
             return 1
         self.seen = []
-        self.K  = k
+        self.K = k
         self.get_ans(0, 0, m, n)
         print(self.seen)
         return len(self.seen)
 
-    def isvalid(self,r, c, k):
+    def isvalid(self, r, c, k):
         sum_data = 0
 
         while r > 9:
@@ -25,12 +25,13 @@ class Solution:
             return True
         else:
             return False
-    def get_ans(self,i, j, m, n):
-        for k, v in [(i-1, j),(i+1, j),(i, j-1),(i, j+1)]:
-            if 0 <= k < m and 0 <= v < n and (k ,v) not in self.seen:
-                if self.isvalid(k,v,self.K):
-                    self.seen.append((k,v))
-                    self.get_ans(k, v, m,n)
+
+    def get_ans(self, i, j, m, n):
+        for k, v in [(i - 1, j), (i + 1, j), (i, j - 1), (i, j + 1)]:
+            if 0 <= k < m and 0 <= v < n and (k, v) not in self.seen:
+                if self.isvalid(k, v, self.K):
+                    self.seen.append((k, v))
+                    self.get_ans(k, v, m, n)
 
 
 if __name__ == "__main__":

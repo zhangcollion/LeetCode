@@ -5,7 +5,7 @@ class Solution:
         b_rev = "".join(i for i in list(b)[::-1])
         if a == b_rev:
             return True
-        if a[-1] == b_rev[-1]
+        if a[-1] == b_rev[-1]:
             return True
         return False
 
