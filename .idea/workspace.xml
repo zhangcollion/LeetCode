@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bf27ba6-2ba0-4d93-a2b1-28b882e52b61" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maximumScore.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mergeAlternately.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/minOperations.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maximumScore.py" afterPath="$PROJECT_DIR$/maximumScore.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,8 +26,8 @@
       <file leaf-file-name="maximumScore.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/maximumScore.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="164">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,8 +102,8 @@
         <option value="$PROJECT_DIR$/getMaximumGold.py" />
         <option value="$PROJECT_DIR$/minEatingSpeed.py" />
         <option value="$PROJECT_DIR$/mergeAlternately.py" />
-        <option value="$PROJECT_DIR$/maximumScore.py" />
         <option value="$PROJECT_DIR$/minOperations.py" />
+        <option value="$PROJECT_DIR$/maximumScore.py" />
       </list>
     </option>
   </component>
@@ -175,24 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.minEatingSpeed">
-    <configuration name="UndergroundSystem" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PYLearn" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UndergroundSystem.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.maximumScore">
     <configuration name="camelMatch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -244,6 +224,23 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="maximumScore" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PYLearn" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maximumScore.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="minEatingSpeed" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -262,19 +259,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.UndergroundSystem" />
-      <item index="1" class="java.lang.String" itemvalue="Python.camelMatch" />
-      <item index="2" class="java.lang.String" itemvalue="Python.exist" />
-      <item index="3" class="java.lang.String" itemvalue="Python.getMaximumGold" />
-      <item index="4" class="java.lang.String" itemvalue="Python.minEatingSpeed" />
+      <item index="0" class="java.lang.String" itemvalue="Python.camelMatch" />
+      <item index="1" class="java.lang.String" itemvalue="Python.exist" />
+      <item index="2" class="java.lang.String" itemvalue="Python.getMaximumGold" />
+      <item index="3" class="java.lang.String" itemvalue="Python.minEatingSpeed" />
+      <item index="4" class="java.lang.String" itemvalue="Python.maximumScore" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.minEatingSpeed" />
-        <item index="1" class="java.lang.String" itemvalue="Python.getMaximumGold" />
-        <item index="2" class="java.lang.String" itemvalue="Python.exist" />
-        <item index="3" class="java.lang.String" itemvalue="Python.camelMatch" />
-        <item index="4" class="java.lang.String" itemvalue="Python.UndergroundSystem" />
+        <item index="0" class="java.lang.String" itemvalue="Python.maximumScore" />
+        <item index="1" class="java.lang.String" itemvalue="Python.minEatingSpeed" />
+        <item index="2" class="java.lang.String" itemvalue="Python.getMaximumGold" />
+        <item index="3" class="java.lang.String" itemvalue="Python.exist" />
+        <item index="4" class="java.lang.String" itemvalue="Python.camelMatch" />
       </list>
     </recent_temporary>
   </component>
@@ -483,6 +480,16 @@
           <line>20</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/subarraySum.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/maximumScore.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -491,7 +498,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="54" />
+      <option name="time" value="59" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -569,8 +576,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/subarraySum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -874,8 +882,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/maximumScore.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        <state relative-caret-position="164">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
