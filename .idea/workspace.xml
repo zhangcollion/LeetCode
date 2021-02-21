@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bf27ba6-2ba0-4d93-a2b1-28b882e52b61" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/minEatingSpeed.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maximumScore.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mergeAlternately.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/minOperations.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,31 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="exist.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exist.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getMaximumGold.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/getMaximumGold.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="minEatingSpeed.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/minEatingSpeed.py">
+      <file leaf-file-name="minOperations.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/minOperations.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maximumScore.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/maximumScore.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -64,9 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/isNStraightHand.py" />
-        <option value="$PROJECT_DIR$/power2.py" />
-        <option value="$PROJECT_DIR$/Codec.py" />
         <option value="$PROJECT_DIR$/triangleNumber.py" />
         <option value="$PROJECT_DIR$/merge.py" />
         <option value="$PROJECT_DIR$/combinationSum2.py" />
@@ -115,6 +104,9 @@
         <option value="$PROJECT_DIR$/camelMatch.py" />
         <option value="$PROJECT_DIR$/getMaximumGold.py" />
         <option value="$PROJECT_DIR$/minEatingSpeed.py" />
+        <option value="$PROJECT_DIR$/mergeAlternately.py" />
+        <option value="$PROJECT_DIR$/maximumScore.py" />
+        <option value="$PROJECT_DIR$/minOperations.py" />
       </list>
     </option>
   </component>
@@ -504,27 +496,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/permute.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/largestNumber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-206">
-          <caret line="4" column="52" lean-forward="true" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Anaconda3/Lib/random.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="719" column="0" lean-forward="false" selection-start-line="719" selection-start-column="0" selection-end-line="719" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/generateParenthesis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
@@ -881,6 +852,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mergeAlternately.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minOperations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maximumScore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding />
         </state>
       </provider>
