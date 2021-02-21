@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bf27ba6-2ba0-4d93-a2b1-28b882e52b61" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/getMaximumGold.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/minEatingSpeed.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,18 +17,28 @@
       <file leaf-file-name="exist.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="1470">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getMaximumGold.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="getMaximumGold.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getMaximumGold.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="584">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="minEatingSpeed.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/minEatingSpeed.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -54,7 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/maxRotateFunction.py" />
         <option value="$PROJECT_DIR$/isNStraightHand.py" />
         <option value="$PROJECT_DIR$/power2.py" />
         <option value="$PROJECT_DIR$/Codec.py" />
@@ -105,6 +114,7 @@
         <option value="$PROJECT_DIR$/UndergroundSystem.py" />
         <option value="$PROJECT_DIR$/camelMatch.py" />
         <option value="$PROJECT_DIR$/getMaximumGold.py" />
+        <option value="$PROJECT_DIR$/minEatingSpeed.py" />
       </list>
     </option>
   </component>
@@ -132,7 +142,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -150,6 +159,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.getMaximumGold">
+  <component name="RunManager" selected="Python.minEatingSpeed">
     <configuration name="UndergroundSystem" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -242,7 +252,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="movingCount" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="minEatingSpeed" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -254,25 +264,25 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PYLearn" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/movingCount.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/minEatingSpeed.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.movingCount" />
-      <item index="1" class="java.lang.String" itemvalue="Python.UndergroundSystem" />
-      <item index="2" class="java.lang.String" itemvalue="Python.camelMatch" />
-      <item index="3" class="java.lang.String" itemvalue="Python.exist" />
-      <item index="4" class="java.lang.String" itemvalue="Python.getMaximumGold" />
+      <item index="0" class="java.lang.String" itemvalue="Python.UndergroundSystem" />
+      <item index="1" class="java.lang.String" itemvalue="Python.camelMatch" />
+      <item index="2" class="java.lang.String" itemvalue="Python.exist" />
+      <item index="3" class="java.lang.String" itemvalue="Python.getMaximumGold" />
+      <item index="4" class="java.lang.String" itemvalue="Python.minEatingSpeed" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.getMaximumGold" />
-        <item index="1" class="java.lang.String" itemvalue="Python.exist" />
-        <item index="2" class="java.lang.String" itemvalue="Python.camelMatch" />
-        <item index="3" class="java.lang.String" itemvalue="Python.UndergroundSystem" />
-        <item index="4" class="java.lang.String" itemvalue="Python.movingCount" />
+        <item index="0" class="java.lang.String" itemvalue="Python.minEatingSpeed" />
+        <item index="1" class="java.lang.String" itemvalue="Python.getMaximumGold" />
+        <item index="2" class="java.lang.String" itemvalue="Python.exist" />
+        <item index="3" class="java.lang.String" itemvalue="Python.camelMatch" />
+        <item index="4" class="java.lang.String" itemvalue="Python.UndergroundSystem" />
       </list>
     </recent_temporary>
   </component>
@@ -494,13 +504,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dailyTemperatures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/permute.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -855,22 +858,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="1470">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/getMaximumGold.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="584">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minEatingSpeed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
