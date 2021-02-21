@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bf27ba6-2ba0-4d93-a2b1-28b882e52b61" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/singleNonDuplicate.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kthSmallest.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,14 +34,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="singleNonDuplicate.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="singleNonDuplicate.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/singleNonDuplicate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="24" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kthSmallest.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kthSmallest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,7 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/merge.py" />
         <option value="$PROJECT_DIR$/combinationSum2.py" />
         <option value="$PROJECT_DIR$/combinationSum3.py" />
         <option value="$PROJECT_DIR$/groupAnagrams.py" />
@@ -117,6 +126,7 @@
         <option value="$PROJECT_DIR$/minOperations.py" />
         <option value="$PROJECT_DIR$/maximumScore.py" />
         <option value="$PROJECT_DIR$/singleNonDuplicate.py" />
+        <option value="$PROJECT_DIR$/kthSmallest.py" />
       </list>
     </option>
   </component>
@@ -516,13 +526,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/letterCasePermutation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="39" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/combinationSum2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
@@ -896,11 +899,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/singleNonDuplicate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="24" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kthSmallest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
