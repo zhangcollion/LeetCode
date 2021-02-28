@@ -45,8 +45,9 @@ class Solution:
 
             count += 1
 
-            if diff <= 0:
+            if diff == 0:
                 break
+
 
         if diff <= 0:
             return count
