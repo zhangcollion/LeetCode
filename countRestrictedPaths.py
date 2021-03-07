@@ -59,11 +59,6 @@ class Solution:
             return self.d_info[start]
 
 
-
-
-
-
-
 if __name__=="__main__":
     n = 7
     edges = [[1,3,1],[4,1,2],[7,3,4],[2,5,3],[5,6,1],[6,7,2],[7,5,3],[2,6,4]]
