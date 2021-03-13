@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bf27ba6-2ba0-4d93-a2b1-28b882e52b61" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findWhetherExistsPath.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/furthestBuilding.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/setZeroes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordBreak.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode" afterPath="$PROJECT_DIR$/LeetCode" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RL/RL.mmap" afterPath="$PROJECT_DIR$/RL/RL.mmap" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,41 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="shoppingOffers.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shoppingOffers.py">
+      <file leaf-file-name="setZeroes.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setZeroes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            <state relative-caret-position="150">
+              <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="furthestBuilding.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/furthestBuilding.py">
+      <file leaf-file-name="wordBreak.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wordBreak.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="37" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Anaconda3/Lib/codecs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="findWhetherExistsPath.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/findWhetherExistsPath.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="23" selection-end-column="45" />
+              <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -77,8 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/slowestKey.py" />
-        <option value="$PROJECT_DIR$/checkArithmeticSubarrays.py" />
         <option value="$PROJECT_DIR$/.idea/minimumEffortPath.py" />
         <option value="$PROJECT_DIR$/partition.py" />
         <option value="$PROJECT_DIR$/allPathsSourceTarget.py" />
@@ -128,6 +107,8 @@
         <option value="$PROJECT_DIR$/shoppingOffersv2.py" />
         <option value="$PROJECT_DIR$/findWhetherExistsPath.py" />
         <option value="$PROJECT_DIR$/furthestBuilding.py" />
+        <option value="$PROJECT_DIR$/setZeroes.py" />
+        <option value="$PROJECT_DIR$/wordBreak.py" />
       </list>
     </option>
   </component>
@@ -163,11 +144,6 @@
               <item name="PYLearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="PYLearn" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="PYLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PYLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -197,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.furthestBuilding">
+  <component name="RunManager" selected="Python.wordBreak">
     <configuration name="countRestrictedPaths" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -228,23 +204,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PYLearn" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/furthestBuilding.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="minElements" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PYLearn" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/minElements.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,20 +242,37 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="wordBreak" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PYLearn" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wordBreak.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.minElements" />
-      <item index="1" class="java.lang.String" itemvalue="Python.countRestrictedPaths" />
-      <item index="2" class="java.lang.String" itemvalue="Python.printKMoves" />
-      <item index="3" class="java.lang.String" itemvalue="Python.shoppingOffersv2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.furthestBuilding" />
+      <item index="0" class="java.lang.String" itemvalue="Python.countRestrictedPaths" />
+      <item index="1" class="java.lang.String" itemvalue="Python.printKMoves" />
+      <item index="2" class="java.lang.String" itemvalue="Python.shoppingOffersv2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.furthestBuilding" />
+      <item index="4" class="java.lang.String" itemvalue="Python.wordBreak" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.furthestBuilding" />
-        <item index="1" class="java.lang.String" itemvalue="Python.shoppingOffersv2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.printKMoves" />
-        <item index="3" class="java.lang.String" itemvalue="Python.countRestrictedPaths" />
-        <item index="4" class="java.lang.String" itemvalue="Python.minElements" />
+        <item index="0" class="java.lang.String" itemvalue="Python.wordBreak" />
+        <item index="1" class="java.lang.String" itemvalue="Python.furthestBuilding" />
+        <item index="2" class="java.lang.String" itemvalue="Python.shoppingOffersv2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.printKMoves" />
+        <item index="4" class="java.lang.String" itemvalue="Python.countRestrictedPaths" />
       </list>
     </recent_temporary>
   </component>
@@ -354,7 +330,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21758242" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4043956" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4043956" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -553,21 +529,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/checkArithmeticSubarrays.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="25" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/findLongestWord.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="24" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Anaconda3/Lib/heapq.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -895,10 +856,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shoppingOffersv2.py" />
-    <entry file="file://$PROJECT_DIR$/findWhetherExistsPath.py">
+    <entry file="file://$PROJECT_DIR$/shoppingOffers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="23" selection-end-column="45" />
+        <state relative-caret-position="30">
+          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/furthestBuilding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -911,18 +880,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shoppingOffers.py">
+    <entry file="file://$PROJECT_DIR$/findWhetherExistsPath.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        <state relative-caret-position="60">
+          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="23" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/furthestBuilding.py">
+    <entry file="file://$PROJECT_DIR$/setZeroes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordBreak.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="37" selection-end-column="18" />
+          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
           <folding />
         </state>
       </provider>
