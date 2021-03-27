@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bf27ba6-2ba0-4d93-a2b1-28b882e52b61" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maxAscendingSum.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/minMoves2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode" afterPath="$PROJECT_DIR$/LeetCode" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -18,19 +18,31 @@
       <file leaf-file-name="numSubarrayBoundedMax.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/numSubarrayBoundedMax.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
+            <state relative-caret-position="930">
               <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="35" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="maxAscendingSum.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="maxAscendingSum.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/maxAscendingSum.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="minMoves2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/minMoves2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,7 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/checkArithmeticSubarrays.py" />
         <option value="$PROJECT_DIR$/.idea/minimumEffortPath.py" />
         <option value="$PROJECT_DIR$/partition.py" />
         <option value="$PROJECT_DIR$/allPathsSourceTarget.py" />
@@ -107,6 +118,7 @@
         <option value="$PROJECT_DIR$/findWhetherExistsPath.py" />
         <option value="$PROJECT_DIR$/furthestBuilding.py" />
         <option value="$PROJECT_DIR$/maxAscendingSum.py" />
+        <option value="$PROJECT_DIR$/minMoves2.py" />
       </list>
     </option>
   </component>
@@ -134,8 +146,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,6 +157,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -171,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.furthestBuilding">
+  <component name="RunManager" selected="Python.minMoves2">
     <configuration name="countRestrictedPaths" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -206,7 +218,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="minElements" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="minMoves2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -218,7 +230,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PYLearn" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/minElements.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/minMoves2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -258,19 +270,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.minElements" />
-      <item index="1" class="java.lang.String" itemvalue="Python.countRestrictedPaths" />
-      <item index="2" class="java.lang.String" itemvalue="Python.printKMoves" />
-      <item index="3" class="java.lang.String" itemvalue="Python.shoppingOffersv2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.furthestBuilding" />
+      <item index="0" class="java.lang.String" itemvalue="Python.countRestrictedPaths" />
+      <item index="1" class="java.lang.String" itemvalue="Python.printKMoves" />
+      <item index="2" class="java.lang.String" itemvalue="Python.shoppingOffersv2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.furthestBuilding" />
+      <item index="4" class="java.lang.String" itemvalue="Python.minMoves2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.furthestBuilding" />
-        <item index="1" class="java.lang.String" itemvalue="Python.shoppingOffersv2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.printKMoves" />
-        <item index="3" class="java.lang.String" itemvalue="Python.countRestrictedPaths" />
-        <item index="4" class="java.lang.String" itemvalue="Python.minElements" />
+        <item index="0" class="java.lang.String" itemvalue="Python.minMoves2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.furthestBuilding" />
+        <item index="2" class="java.lang.String" itemvalue="Python.shoppingOffersv2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.printKMoves" />
+        <item index="4" class="java.lang.String" itemvalue="Python.countRestrictedPaths" />
       </list>
     </recent_temporary>
   </component>
@@ -328,7 +340,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21758242" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4043956" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4043956" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -517,19 +529,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="102" />
+      <option name="time" value="106" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/findLongestWord.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="24" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Anaconda3/Lib/heapq.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -878,7 +882,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/numSubarrayBoundedMax.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
+        <state relative-caret-position="930">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="35" selection-end-column="52" />
           <folding />
         </state>
@@ -887,8 +891,18 @@
     <entry file="file://$PROJECT_DIR$/maxAscendingSum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minMoves2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
