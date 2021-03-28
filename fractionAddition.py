@@ -13,7 +13,7 @@ class Solution:
                 ans.append(tmp)
                 tmp = ""
             else:
-                if  i in ["+","-"]:
+                if i in ["+", "-"]:
                     if tmp:
                         ans.append(tmp)
                         tmp = i
@@ -22,31 +22,24 @@ class Solution:
                 else:
                     tmp += i
         ans.append(tmp)
-        print(ans)
         for i in range(0, len(ans), 2):
-            info[int(ans[i + 1])].append(int(ans[i]))
+            if int(ans[i + 1]) not in info.keys():
+                info[int(ans[i + 1])] = int(ans[i])
+            else:
+                info[int(ans[i + 1])] = info[int(ans[i + 1])] + int(ans[i])
 
-        info_dict = defaultdict(list)
-        for i in info.keys():
-            data = sum(info[i])
-            if data != 0:
-                info_dict[i] = data
-
-        mom = list(info_dict.keys())
-        son = list(info_dict.values())
-
+        mom = list(info.keys())
+        son = list(info.values())
         ans = 1
         for i in mom:
             ans *= i
         tmp = 0
         for i in range(len(son)):
             tmp += son[i] * ans // mom[i]
-        # print(ans, tmp)
         from fractions import Fraction
         f = Fraction(tmp, ans)
         ans = str(f._numerator) + "/" + str(f._denominator)
         return ans
-
 
 
 if __name__ == "__main__":
