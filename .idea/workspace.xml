@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bf27ba6-2ba0-4d93-a2b1-28b882e52b61" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/minMoves2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/evaluate.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameOfLife.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lastStoneWeightII.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numDifferentIntegers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reinitializePermutation.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode" afterPath="$PROJECT_DIR$/LeetCode" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -18,7 +22,7 @@
       <file leaf-file-name="numSubarrayBoundedMax.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/numSubarrayBoundedMax.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
+            <state relative-caret-position="186">
               <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="35" selection-end-column="52" />
               <folding />
             </state>
@@ -35,13 +39,67 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="minMoves2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="minMoves2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/minMoves2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="31" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gameOfLife.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gameOfLife.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lastStoneWeightII.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lastStoneWeightII.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functools.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Anaconda3/Lib/functools.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2799">
+              <caret line="390" column="4" lean-forward="false" selection-start-line="390" selection-start-column="4" selection-end-line="390" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reinitializePermutation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reinitializePermutation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="26" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="evaluate.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/evaluate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1050">
+              <caret line="35" column="18" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="35" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,11 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.idea/minimumEffortPath.py" />
-        <option value="$PROJECT_DIR$/partition.py" />
-        <option value="$PROJECT_DIR$/allPathsSourceTarget.py" />
-        <option value="$PROJECT_DIR$/updateBoard.py" />
-        <option value="$PROJECT_DIR$/findCheapestPrice.py" />
         <option value="$PROJECT_DIR$/numSubarrayBoundedMax.py" />
         <option value="$PROJECT_DIR$/minReorder.py" />
         <option value="$PROJECT_DIR$/accountsMerge.py" />
@@ -119,6 +172,11 @@
         <option value="$PROJECT_DIR$/furthestBuilding.py" />
         <option value="$PROJECT_DIR$/maxAscendingSum.py" />
         <option value="$PROJECT_DIR$/minMoves2.py" />
+        <option value="$PROJECT_DIR$/gameOfLife.py" />
+        <option value="$PROJECT_DIR$/numDifferentIntegers.py" />
+        <option value="$PROJECT_DIR$/reinitializePermutation.py" />
+        <option value="$PROJECT_DIR$/evaluate.py" />
+        <option value="$PROJECT_DIR$/lastStoneWeightII.py" />
       </list>
     </option>
   </component>
@@ -183,8 +241,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.minMoves2">
-    <configuration name="countRestrictedPaths" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.lastStoneWeightII">
+    <configuration name="evaluate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -196,12 +254,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PYLearn" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/countRestrictedPaths.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evaluate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="furthestBuilding" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="gameOfLife" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -213,7 +271,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PYLearn" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/furthestBuilding.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gameOfLife.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="lastStoneWeightII" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PYLearn" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lastStoneWeightII.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -235,7 +310,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="printKMoves" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="reinitializePermutation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -247,42 +322,25 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PYLearn" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/printKMoves.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="shoppingOffersv2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PYLearn" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shoppingOffersv2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reinitializePermutation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.countRestrictedPaths" />
-      <item index="1" class="java.lang.String" itemvalue="Python.printKMoves" />
-      <item index="2" class="java.lang.String" itemvalue="Python.shoppingOffersv2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.furthestBuilding" />
-      <item index="4" class="java.lang.String" itemvalue="Python.minMoves2" />
+      <item index="0" class="java.lang.String" itemvalue="Python.minMoves2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.gameOfLife" />
+      <item index="2" class="java.lang.String" itemvalue="Python.lastStoneWeightII" />
+      <item index="3" class="java.lang.String" itemvalue="Python.reinitializePermutation" />
+      <item index="4" class="java.lang.String" itemvalue="Python.evaluate" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.minMoves2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.furthestBuilding" />
-        <item index="2" class="java.lang.String" itemvalue="Python.shoppingOffersv2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.printKMoves" />
-        <item index="4" class="java.lang.String" itemvalue="Python.countRestrictedPaths" />
+        <item index="0" class="java.lang.String" itemvalue="Python.lastStoneWeightII" />
+        <item index="1" class="java.lang.String" itemvalue="Python.evaluate" />
+        <item index="2" class="java.lang.String" itemvalue="Python.reinitializePermutation" />
+        <item index="3" class="java.lang.String" itemvalue="Python.gameOfLife" />
+        <item index="4" class="java.lang.String" itemvalue="Python.minMoves2" />
       </list>
     </recent_temporary>
   </component>
@@ -521,6 +579,16 @@
           <line>44</line>
           <option name="timeStamp" value="96" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/reinitializePermutation.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/evaluate.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -529,57 +597,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="106" />
+      <option name="time" value="109" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Program Files/Anaconda3/Lib/heapq.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="134" column="4" lean-forward="false" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/minReorder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/findCheapestPrice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="93" column="9" lean-forward="false" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#23#0" expanded="false" />
-            <marker date="1612607793001" expanded="true" signature="2845:2975" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/findRedundantConnection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="67" column="4" lean-forward="true" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/canVisitAllRooms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smallestStringWithSwaps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PyImproved.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="453">
@@ -805,13 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-1282051629/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="3623" column="8" lean-forward="false" selection-start-line="3623" selection-start-column="8" selection-end-line="3623" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/minElements.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1230">
@@ -880,14 +895,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/numSubarrayBoundedMax.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="35" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/maxAscendingSum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -896,10 +903,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gameOfLife.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-1282051629/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189">
+          <caret line="4972" column="8" lean-forward="false" selection-start-line="4972" selection-start-column="8" selection-end-line="4972" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numDifferentIntegers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/minMoves2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="35" column="18" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="35" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Anaconda3/Lib/functools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2799">
+          <caret line="390" column="4" lean-forward="false" selection-start-line="390" selection-start-column="4" selection-end-line="390" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numSubarrayBoundedMax.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="35" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reinitializePermutation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="26" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lastStoneWeightII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
