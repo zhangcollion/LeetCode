@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bf27ba6-2ba0-4d93-a2b1-28b882e52b61" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/evaluate.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameOfLife.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lastStoneWeightII.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numDifferentIntegers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reinitializePermutation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fractionAddition.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCode" afterPath="$PROJECT_DIR$/LeetCode" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -19,88 +15,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="numSubarrayBoundedMax.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/numSubarrayBoundedMax.py">
+      <file leaf-file-name="fractionAddition.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fractionAddition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="35" selection-end-column="52" />
+            <state relative-caret-position="-90">
+              <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="maxAscendingSum.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/maxAscendingSum.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="minMoves2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/minMoves2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gameOfLife.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gameOfLife.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lastStoneWeightII.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lastStoneWeightII.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functools.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Anaconda3/Lib/functools.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2799">
-              <caret line="390" column="4" lean-forward="false" selection-start-line="390" selection-start-column="4" selection-end-line="390" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reinitializePermutation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reinitializePermutation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="26" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="evaluate.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/evaluate.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="35" column="18" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="35" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -126,7 +46,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/numSubarrayBoundedMax.py" />
         <option value="$PROJECT_DIR$/minReorder.py" />
         <option value="$PROJECT_DIR$/accountsMerge.py" />
         <option value="$PROJECT_DIR$/canVisitAllRooms.py" />
@@ -177,6 +96,7 @@
         <option value="$PROJECT_DIR$/reinitializePermutation.py" />
         <option value="$PROJECT_DIR$/evaluate.py" />
         <option value="$PROJECT_DIR$/lastStoneWeightII.py" />
+        <option value="$PROJECT_DIR$/fractionAddition.py" />
       </list>
     </option>
   </component>
@@ -241,7 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lastStoneWeightII">
+  <component name="RunManager" selected="Python.fractionAddition">
     <configuration name="evaluate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,6 +175,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PYLearn" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evaluate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="fractionAddition" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PYLearn" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fractionAddition.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -293,23 +230,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="minMoves2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PYLearn" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/minMoves2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="reinitializePermutation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -328,19 +248,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.minMoves2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.gameOfLife" />
-      <item index="2" class="java.lang.String" itemvalue="Python.lastStoneWeightII" />
-      <item index="3" class="java.lang.String" itemvalue="Python.reinitializePermutation" />
-      <item index="4" class="java.lang.String" itemvalue="Python.evaluate" />
+      <item index="0" class="java.lang.String" itemvalue="Python.gameOfLife" />
+      <item index="1" class="java.lang.String" itemvalue="Python.lastStoneWeightII" />
+      <item index="2" class="java.lang.String" itemvalue="Python.reinitializePermutation" />
+      <item index="3" class="java.lang.String" itemvalue="Python.evaluate" />
+      <item index="4" class="java.lang.String" itemvalue="Python.fractionAddition" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.lastStoneWeightII" />
-        <item index="1" class="java.lang.String" itemvalue="Python.evaluate" />
-        <item index="2" class="java.lang.String" itemvalue="Python.reinitializePermutation" />
-        <item index="3" class="java.lang.String" itemvalue="Python.gameOfLife" />
-        <item index="4" class="java.lang.String" itemvalue="Python.minMoves2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.fractionAddition" />
+        <item index="1" class="java.lang.String" itemvalue="Python.lastStoneWeightII" />
+        <item index="2" class="java.lang.String" itemvalue="Python.evaluate" />
+        <item index="3" class="java.lang.String" itemvalue="Python.reinitializePermutation" />
+        <item index="4" class="java.lang.String" itemvalue="Python.gameOfLife" />
       </list>
     </recent_temporary>
   </component>
@@ -589,6 +509,11 @@
           <line>16</line>
           <option name="timeStamp" value="108" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fractionAddition.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -597,18 +522,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="109" />
+      <option name="time" value="111" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PyImproved.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/canPartitionKSubsets.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -978,6 +896,14 @@
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fractionAddition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
