@@ -1,30 +1,28 @@
 from typing import List
-from collections import deque, defaultdict
+from collections import  defaultdict
+import heapq
 
 class Solution:
     def getOrder(self, tasks: List[List[int]]) -> List[int]:
-
-        data = [i for i, j in tasks]
-        start_time = min(data)
+        info = defaultdict(list)
+        for idx, ele in enumerate(tasks):
+            start, keep = ele
+            info[start].append((keep, idx))
+        keys = sorted(info.keys())
         ans = []
-        while len(ans) != len(tasks):
-            min_time = 1000000000000
-            for idx, ele in enumerate(tasks):
-                start, keep = ele
-                if idx not in ans:
-                    if start <= start_time:
-                        if min_time > keep:
-                            use_data = idx
-                            keep_time = keep
-                            new_time = start
-                            min_time = keep
-            # jobs 中持续时间最短的
-
-            ans.append(use_data)
-            start_time = new_time + keep_time
-
+        end_time = 0
+        pq = []
+        for start_time in keys:
+            while len(pq) != 0 and end_time < start_time:
+                keep, idx, ref_time = heapq.heappop(pq)
+                end_time = max(ref_time, end_time) + keep
+                ans.append(idx)
+            for keep, idx in info[start_time]:
+                heapq.heappush(pq, (keep, idx, start_time))
+        while len(pq) != 0:
+            keep, idx, start_time = heapq.heappop(pq)
+            ans.append(idx)
         return ans
-
 if __name__=="__main__":
-    tasks =   [[7,10],[7,12],[7,5],[7,4],[7,2]]
+    tasks =  [[7,10],[7,12],[7,5],[7,4],[7,2]]
     print(Solution().getOrder(tasks))
