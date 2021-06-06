@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2bf27ba6-2ba0-4d93-a2b1-28b882e52b61" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/LeetCode/countServers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignTasks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/isSumEqual.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maxValue.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LeetCode" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxValue.py" beforeDir="false" afterPath="$PROJECT_DIR$/maxValue.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

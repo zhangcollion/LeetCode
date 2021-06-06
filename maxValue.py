@@ -13,7 +13,6 @@ class Solution:
                     new_data.append(n[i])
 
             if flag == 1:
-
                 new_data.append(n[i:])
             else:
                 new_data.append(str(x))
