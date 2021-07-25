@@ -5,7 +5,8 @@
       <change afterPath="$PROJECT_DIR$/LeetCode/countServers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LeetCode" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maxValue.py" beforeDir="false" afterPath="$PROJECT_DIR$/maxValue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OneNote_data/机器学习/新分区 1.one" beforeDir="false" afterPath="$PROJECT_DIR$/OneNote_data/机器学习/新分区 1.one" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RL/DQN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/RL/DQN.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,10 +247,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.makeStringSorted" />
-      <item itemvalue="Python.getOrder" />
-      <item itemvalue="Python.canVisitAllRooms" />
       <item itemvalue="Python.accountsMerge" />
+      <item itemvalue="Python.canVisitAllRooms" />
+      <item itemvalue="Python.getOrder" />
+      <item itemvalue="Python.makeStringSorted" />
       <item itemvalue="Python.subsets" />
     </list>
     <recent_temporary>
