@@ -5,7 +5,7 @@
       <change afterPath="$PROJECT_DIR$/LeetCode/countServers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LeetCode" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/minimizeTheDifference.py" beforeDir="false" afterPath="$PROJECT_DIR$/minimizeTheDifference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OneNote_data/机器学习/打开笔记本.onetoc2" beforeDir="false" afterPath="$PROJECT_DIR$/OneNote_data/机器学习/打开笔记本.onetoc2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +147,7 @@
       <recent name="G:\ML\PYLearn" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.minimizeTheDifference">
+  <component name="RunManager" selected="Python.asteroidCollision">
     <configuration name="accountsMerge" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PYLearn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,7 +169,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="canVisitAllRooms" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="asteroidCollision" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PYLearn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,7 +181,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/canVisitAllRooms.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asteroidCollision.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,18 +255,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.accountsMerge" />
-      <item itemvalue="Python.canVisitAllRooms" />
       <item itemvalue="Python.subsets" />
       <item itemvalue="Python.maxRepOpt1" />
       <item itemvalue="Python.minimizeTheDifference" />
+      <item itemvalue="Python.asteroidCollision" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.asteroidCollision" />
         <item itemvalue="Python.minimizeTheDifference" />
         <item itemvalue="Python.maxRepOpt1" />
         <item itemvalue="Python.subsets" />
         <item itemvalue="Python.accountsMerge" />
-        <item itemvalue="Python.canVisitAllRooms" />
       </list>
     </recent_temporary>
   </component>
@@ -511,6 +511,11 @@
           <url>file://$PROJECT_DIR$/fractionAddition.py</url>
           <line>35</line>
           <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/asteroidCollision.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="113" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
