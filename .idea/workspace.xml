@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2bf27ba6-2ba0-4d93-a2b1-28b882e52b61" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/LeetCode/countServers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maxResult.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LeetCode" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneNote_data/机器学习/spark.one" beforeDir="false" afterPath="$PROJECT_DIR$/OneNote_data/机器学习/spark.one" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,28 +147,7 @@
       <recent name="G:\ML\PYLearn" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.asteroidCollision">
-    <configuration name="accountsMerge" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PYLearn" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/accountsMerge.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.maxResult">
     <configuration name="asteroidCollision" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PYLearn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,6 +182,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maxRepOpt1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="maxResult" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PYLearn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maxResult.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,19 +254,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.accountsMerge" />
       <item itemvalue="Python.subsets" />
       <item itemvalue="Python.maxRepOpt1" />
       <item itemvalue="Python.minimizeTheDifference" />
       <item itemvalue="Python.asteroidCollision" />
+      <item itemvalue="Python.maxResult" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.maxResult" />
         <item itemvalue="Python.asteroidCollision" />
         <item itemvalue="Python.minimizeTheDifference" />
         <item itemvalue="Python.maxRepOpt1" />
         <item itemvalue="Python.subsets" />
-        <item itemvalue="Python.accountsMerge" />
       </list>
     </recent_temporary>
   </component>
@@ -515,6 +516,11 @@
           <url>file://$PROJECT_DIR$/asteroidCollision.py</url>
           <line>12</line>
           <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/maxResult.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="115" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
