@@ -53,28 +53,22 @@ def get_model(model_name='resnet18'):
         return model_q, model_k
 
     except KeyError:
-        print(f'model name: {model_name} does not exist')
+        print(f'model name: {model_name} does not kexist')
 
  
 def momentum_update(model_q, model_k, m=0.999):
     for p1, p2 in zip(model_q.parameters(), model_k.parameters()):
         p2.data.mul_(m).add_(1-m, p1.detach().data)
 
-def momentum_update(model_q, model_k, m=0.999):
-    """ model_k = m * model_k + (1 - m) model_q """
-    for p1, p2 in zip(model_q.parameters(), model_k.parameters()):
-        p2.data.mul_(m).add_(1 - m, p1.detach().data)
-
-
 def enqueue(queue, k):
     return torch.cat([queue, k], dim=0)
 
-
 def dequeue(queue, max_len=config.QUEUE_LENGTH):
     if queue.shape[0] >= max_len:
-        return queue[-max_len:]  # queue follows FIFO
+        return queue[-max_len:]
     else:
         return queue
+
 
 
 def train(train_dataloader, model_q, model_k, queue, optimizer, device, t=0.07):
@@ -95,12 +89,10 @@ def train(train_dataloader, model_q, model_k, queue, optimizer, device, t=0.07):
 
             N, C = q.shape
             # K = config.QUEUE_LENGTH
-
-            l_pos = torch.bmm(q.view(N, 1, C), k.view(N, C, 1)).view(N, 1)  # positive logit N x 1
-            l_neg = torch.mm(q.view(N, C), queue.transpose(0, 1))  # negative logit N x K
-            labels = torch.zeros(N, dtype=torch.long).to(device)  # positives are the 0-th
-            logits = torch.cat([l_pos, l_neg], dim=1) / t
-            # print(logits[0])
+            l_pos = torch.bmm(q.view(N, 1, C), k.view(N,C,1)).view(N,1)
+            l_neg = torch.mm(q.view(N,C), queue.transpose(0,1))
+            labels = torch.zeros(N, dtype=torch.long).to(device)
+            logits = torch.cat([l_pos, l_neg], dim=1)/t
             pred = logits[:, 0].mean()
             loss = criterion(logits, labels)
             losses.update(loss.item(), N)

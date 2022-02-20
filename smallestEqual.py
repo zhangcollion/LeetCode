@@ -1,13 +1,13 @@
-from typing import List
-from collections import defaultdict
+import torch
+from torch_geometric.data import Data
 
 
-class Solution:
-    def     (self, nums: List[int]) -> int:
-        for i, data in enumerate(nums):
-            if mod(i, 10) == data:
-                return i
 
-        return -1
+x = torch.tensor([[2, 1], [5, 6], [3, 7], [12, 0]], dtype=torch.float)
+y = torch.tensor([0, 1, 0, 1], dtype=torch.float)
 
+edge_index = torch.tensor([[0, 2, 1, 0, 3],
+                           [3, 1, 0, 1, 2]], dtype=torch.long)
 
+data = Data(x=x, y=y, edge_index=edge_index)
+print(data)
