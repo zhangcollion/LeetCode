@@ -13,6 +13,7 @@ from torch_geometric.utils import softmax
 
 def group(xs, q, k_lin):
     ## 不同类型的meta path 有不同的注意力值
+    ## sematic-level 注意力计算使用相同参数
     if len(xs) == 0:
         return None
     else:
@@ -41,7 +42,7 @@ def HANConv(MessagePassing):
 
         self.proj = nn.ModuleDict()
         for node_type, in_channels in self.in_channels.items():
-            self.proj[node_type] = Linear(in_channels, out_channels)
+            self.1[node_type] = Linear(in_channels, out_channels)
 
         self.lin_src = nn.ParameterDict()
         self.lin_dst = nn.ParameterDict()
@@ -78,8 +79,9 @@ def HANConv(MessagePassing):
             edge_type = '__'.join(edge_type)
             lin_src = self.lin_src[edge_type]
             lin_dst = self.lin_dst[edge_type]
-            x_dst = x_node_dict[dst_type]
             x_src = x_node_dict[src_type]
+            x_dst = x_node_dict[dst_type]
+            
             alpha_src = (x_src*lin_src).sum(dim=-1)
             alpha_dst = (x_dst*lin_dst).sum(dim=-1)
             alpha = (alpha_src, alpha_dst)
