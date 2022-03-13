@@ -23,8 +23,8 @@ class RGCLayer(Module):
             self.W_comp = Parameter(torch.empty(support, num_base,
                                 dtype=torch.float32,device=device))
         else:
-            self.W=Parameter(torch.empty(input_dim*self.supprot,h_dim,
-                dtype=torch.float32,device=device))
+            self.W = Parameter(torch.empty(input_dim*self.supprot,h_dim,
+                               dtype=torch.float32,device=device))
         self.B = Parameter(torch.FloatTensor(h_dim))
         self.reset_parameter()
 
@@ -34,7 +34,7 @@ class RGCLayer(Module):
             nn.init.xavier_uniform_(self.W_comp)
         self.B.data.fill_(0)
 
-    def forwar(self, vertex, A):
+    def forward(self, vertex, A):
         supports = []
         nodes_num = A[0].shape[0]
         for i, adj in enumerate(A):
@@ -46,7 +46,8 @@ class RGCLayer(Module):
         supports = torch.cat(supports, dim=1)
 
         if self.num_base > 0:
-            V = torch.matmul(self.W_comp, torch.reshape(self.W, (self.num_base, self.input_dim,self.h_dim))).permute(1,0,2)
+            V = torch.matmul(self.W_comp, torch.reshape(self.W, 
+                            (self.num_base, self.input_dim, self.h_dim))).permute(1,0,2)
             V = torch.reshape(V, (self.input_dim*self.support, self.h_dim))
             output = torch.spmm(supports,V)
         else:
