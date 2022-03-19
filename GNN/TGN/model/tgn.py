@@ -182,3 +182,35 @@ class TGN(torch.nn.Module):
                                                                                  timestamps=unique_timestamps)
 
         return updated_memory, updated_last_update
+
+
+
+def get_raw_messages(self, source_nodes, source_node_embedding, destination_nodes,
+                    destination_node_embedding, edge_times, edge_idxs):
+    
+    edge_times = torch.from_numpy(edge_times).float().to(self.device)
+    edge_features = self.edge_raw_features[edge_idxs]
+
+    source_memory = self.memory.get_memory(source_nodes) if not self.use_source_embedding_in_message else source_node_embedding
+    destination_memory = self.memory.get_memory(destination_nodes) if not self.use_destination_embedding_in_message else destination_node_embedding
+
+    source_time_deta = edge_times - self.memory.last_update[source_nodes]
+    source_time_deta_encoding = self.time_encoder(source_time_deta.unsquence(dim=1)).view(len(source_nodes), -1)
+
+    source_message = torch.cat([source_memory, destination_memory, edge_features, source_time_deta_encoding],dim=1)
+    messages = defaultdict(lsit)
+
+    unique_sources = np.uique(source_nodes)
+
+    for i in range(len(source_nodes)):
+        messages[source_nodes[i]].append((source_message[i], edge_times[i]))
+
+
+    return unique_sources, messages
+
+
+def set_neighbor_finder(self, neighbor_finder):
+    self.neighbor_finder = neighbor_finder
+    self.embedding_module.neighbor_finder = neighbor_finder
+
+
