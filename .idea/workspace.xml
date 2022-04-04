@@ -3,13 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="2bf27ba6-2ba0-4d93-a2b1-28b882e52b61" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/LeetCode/countServers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numEnclave.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/numEnclaves_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LeetCode" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneNote_data/机器学习/OneNote_RecycleBin/OneNote_DeletedPages.one" beforeDir="false" afterPath="$PROJECT_DIR$/OneNote_data/机器学习/OneNote_RecycleBin/OneNote_DeletedPages.one" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/图网络.one" beforeDir="false" afterPath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/图网络.one" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smallestEqual.py" beforeDir="false" afterPath="$PROJECT_DIR$/smallestEqual.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/对比学习/BYOL.py" beforeDir="false" afterPath="$PROJECT_DIR$/对比学习/BYOL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/对比学习/MOCO.py" beforeDir="false" afterPath="$PROJECT_DIR$/对比学习/MOCO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleStats.py" beforeDir="false" afterPath="$PROJECT_DIR$/sampleStats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test3_1031.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,8 +153,8 @@
       <recent name="G:\ML\PYLearn" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.smallestEqual">
-    <configuration name="asteroidCollision" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Nosetests in numEnclaves_test.py">
+    <configuration name="numEnclave" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PYLearn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -166,70 +166,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asteroidCollision.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="maxRepOpt1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PYLearn" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maxRepOpt1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="maxResult" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PYLearn" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maxResult.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="minimizeTheDifference" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PYLearn" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/minimizeTheDifference.py" />
+      <option name="SCRIPT_NAME" value="G:\ML\PYLearn\numEnclave.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,20 +196,65 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Nosetests for numEnclaves_test.numEnclavesTest" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="PYLearn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;numEnclaves_test.numEnclavesTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests for numEnclaves_test.numEnclavesTest.test_numEnclaves" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="PYLearn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;numEnclaves_test.numEnclavesTest.test_numEnclaves&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests in numEnclaves_test.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="PYLearn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/numEnclaves_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.maxRepOpt1" />
-      <item itemvalue="Python.minimizeTheDifference" />
-      <item itemvalue="Python.asteroidCollision" />
-      <item itemvalue="Python.maxResult" />
       <item itemvalue="Python.smallestEqual" />
+      <item itemvalue="Python.numEnclaves+" />
+      <item itemvalue="Python tests.Nosetests for numEnclaves_test.numEnclavesTest.test_numEnclaves" />
+      <item itemvalue="Python tests.Nosetests for numEnclaves_test.numEnclavesTest" />
+      <item itemvalue="Python tests.Nosetests in numEnclaves_test.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Nosetests in numEnclaves_test.py" />
+        <item itemvalue="Python tests.Nosetests for numEnclaves_test.numEnclavesTest" />
+        <item itemvalue="Python tests.Nosetests for numEnclaves_test.numEnclavesTest.test_numEnclaves" />
+        <item itemvalue="Python.numEnclaves+" />
         <item itemvalue="Python.smallestEqual" />
-        <item itemvalue="Python.maxResult" />
-        <item itemvalue="Python.asteroidCollision" />
-        <item itemvalue="Python.minimizeTheDifference" />
-        <item itemvalue="Python.maxRepOpt1" />
       </list>
     </recent_temporary>
   </component>
@@ -519,6 +501,11 @@
           <url>file://$PROJECT_DIR$/asteroidCollision.py</url>
           <line>12</line>
           <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/numEnclave.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="123" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
