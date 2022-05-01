@@ -31,16 +31,11 @@ class Solution:
         for i, j in [(row - 1, col), (row + 1, col), (row, col - 1), (row, col + 1)]:
             if 0 <= i < self.row and 0 <= j < self.col:
                 label = str(i) + "-" + str(j)
-                if (i in [0, self.row-1] or j in [0, self.col-1] ) and self.grid[i][j] == 1:
-                    self.total += 1
-                    self.grid[i][j] = 0
-                    self.ans[label] = 1
-                    for c_r, c_l in self.cross_point:
-                        self.grid[c_r][c_l] = 0
-                        point_label = str(c_r) + "-" + str(c_l)
-                        self.ans[point_label] = 1
-                    return
-                if label in self.ans :
+                if ((i in [0, self.row-1] or j in [0, self.col-1] ) and self.grid[i][j] == 1) or label in self.ans:
+                    if label not in self.ans:
+                        self.total += 1
+                        self.grid[i][j] = 0
+                        self.ans[label] = 1
                     for c_r, c_l in self.cross_point:
                         self.grid[c_r][c_l] = 0
                         point_label = str(c_r) + "-" + str(c_l)

@@ -1,7 +1,7 @@
 from typing import List
 from collections import defaultdict
 
-minimizeTheDifference
+
 class UnionFind:
     def __init__(self, data):
         self.parent = list(range(len(data)))
