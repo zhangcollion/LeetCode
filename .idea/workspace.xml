@@ -5,7 +5,9 @@
       <change afterPath="$PROJECT_DIR$/LeetCode/countServers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LeetCode" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/autoencoder.one" beforeDir="false" afterPath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/autoencoder.one" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RL/VAE.py" beforeDir="false" afterPath="$PROJECT_DIR$/RL/VAE.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/论文/autoencoder/【VAE】Auto-Encoding Variational Bayes.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/论文/autoencoder/【VAE】Auto-Encoding Variational Bayes.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,8 +152,8 @@
       <recent name="G:\ML\PYLearn" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sac">
-    <configuration name="PG" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Q_learning">
+    <configuration name="Q_learning" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PYLearn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,7 +165,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RL/PG.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RL/Q_learning.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,7 +174,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PG_RL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="a" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PYLearn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -184,7 +186,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RL/PG_RL.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RL/a.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,50 +216,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Nosetests for numEnclaves_test.numEnclavesTest" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests in Q_learning.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="PYLearn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RL" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;numEnclaves_test.numEnclavesTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/RL/Q_learning.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Nosetests in numEnclaves_test.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests in VAE.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="PYLearn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RL" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/numEnclaves_test.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/RL/VAE.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Nosetests for numEnclaves_test.numEnclavesTest" />
-      <item itemvalue="Python tests.Nosetests in numEnclaves_test.py" />
-      <item itemvalue="Python.PG" />
-      <item itemvalue="Python.PG_RL" />
       <item itemvalue="Python.sac" />
+      <item itemvalue="Python tests.Nosetests in VAE.py" />
+      <item itemvalue="Python.a" />
+      <item itemvalue="Python tests.Nosetests in Q_learning.py" />
+      <item itemvalue="Python.Q_learning" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Q_learning" />
+        <item itemvalue="Python tests.Nosetests in Q_learning.py" />
+        <item itemvalue="Python.a" />
+        <item itemvalue="Python tests.Nosetests in VAE.py" />
         <item itemvalue="Python.sac" />
-        <item itemvalue="Python.PG" />
-        <item itemvalue="Python.PG_RL" />
-        <item itemvalue="Python tests.Nosetests for numEnclaves_test.numEnclavesTest" />
-        <item itemvalue="Python tests.Nosetests in numEnclaves_test.py" />
       </list>
     </recent_temporary>
   </component>

@@ -52,7 +52,7 @@ optimizer = optim.Adam(model.parameters(), lr=1e-3)
 
 def loss_function(reconx, x, mu, logvar):
     BCE = F.binary_cross_entropy(reconx, x.reshape(-1,784), reduction="sum")
-    KLD =0.5 * torch.sum(1+logvar-mu.pow(2)-logvar.exp())
+    KLD = -0.5 * torch.sum(1+logvar-mu.pow(2)-logvar.exp())
     return BCE+KLD
 
 
@@ -130,11 +130,25 @@ def test(epoch):
 
 
 if __name__=="__main__":
-    for epoch in range(1, args.epochs + 1):
-        train(epoch)
-        test(epoch)
-        with torch.no_grad():
-            sample = torch.randn(64, 20).to(device)
-            sample = model.decode(sample).cpu()
-            save_image(sample.view(64, 1, 28, 28),
-                       'results/sample_' + str(epoch) + '.png')
+    # for epoch in range(1, args.epochs + 1):
+    #     train(epoch)
+    #     test(epoch)
+    #     with torch.no_grad():
+    #         sample = torch.randn(64, 20).to(device)
+    #         sample = model.decode(sample).cpu()
+    #         save_image(sample.view(64, 1, 28, 28),
+    #                    'results/sample_' + str(epoch) + '.png')
+
+    import gzip
+
+    f = gzip.open(r'E:\迅雷下载\train-images-idx3-ubyte.gz', 'r')
+
+    image_size = 28
+    num_images = 5
+
+    import numpy as np
+
+    f.read(16)
+    buf = f.read(image_size * image_size * num_images)
+    data = np.frombuffer(buf, dtype=np.uint8).astype(np.float32)
+    data = data.reshape(num_images, image_size, image_size, 1)
