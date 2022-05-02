@@ -3,19 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2bf27ba6-2ba0-4d93-a2b1-28b882e52b61" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/LeetCode/countServers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RL/VAE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PYLearn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PYLearn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LeetCode" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneNote_data/机器学习/OneNote_RecycleBin/OneNote_DeletedPages.one" beforeDir="false" afterPath="$PROJECT_DIR$/OneNote_data/机器学习/OneNote_RecycleBin/OneNote_DeletedPages.one" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/ML.one" beforeDir="false" afterPath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/ML.one" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/Videos.one" beforeDir="false" afterPath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/Videos.one" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/autoencoder.one" beforeDir="false" afterPath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/autoencoder.one" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/强化学习.one" beforeDir="false" afterPath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/强化学习.one" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accountsMerge.py" beforeDir="false" afterPath="$PROJECT_DIR$/accountsMerge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numEnclave.py" beforeDir="false" afterPath="$PROJECT_DIR$/numEnclave.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/numEnclaves_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/numEnclaves_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RL/VAE.py" beforeDir="false" afterPath="$PROJECT_DIR$/RL/VAE.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
