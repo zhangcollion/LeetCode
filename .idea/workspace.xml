@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bf27ba6-2ba0-4d93-a2b1-28b882e52b61" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/DANN/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DANN/functions.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/LeetCode/countServers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RL/VAE_tf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LeetCode" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OneNote_data/机器学习/OneNote_RecycleBin/OneNote_DeletedPages.one" beforeDir="false" afterPath="$PROJECT_DIR$/OneNote_data/机器学习/OneNote_RecycleBin/OneNote_DeletedPages.one" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/autoencoder.one" beforeDir="false" afterPath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/autoencoder.one" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/Transformer.one" beforeDir="false" afterPath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/Transformer.one" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/打开笔记本.onetoc2" beforeDir="false" afterPath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/打开笔记本.onetoc2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +143,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://G:/ML/PYLearn/nearestValidPoint.py" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RL_code" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../merge" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -154,7 +152,7 @@
       <recent name="G:\ML\PYLearn" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.VAE_tf">
+  <component name="RunManager" selected="Python.checkIfPangram">
     <configuration name="Q_learning" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PYLearn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,7 +195,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="a" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="canReach" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PYLearn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -205,11 +203,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RL" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RL/a.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/canReach.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="checkIfPangram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PYLearn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/checkIfPangram.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,35 +252,20 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Nosetests in VAE.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <module name="PYLearn" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RL" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/RL/VAE.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.a" />
       <item itemvalue="Python.Q_learning" />
-      <item itemvalue="Python tests.Nosetests in VAE.py" />
-      <item itemvalue="Python tests.Nosetests in Q_learning.py" />
       <item itemvalue="Python.VAE_tf" />
+      <item itemvalue="Python tests.Nosetests in Q_learning.py" />
+      <item itemvalue="Python.canReach" />
+      <item itemvalue="Python.checkIfPangram" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.checkIfPangram" />
+        <item itemvalue="Python.canReach" />
         <item itemvalue="Python.VAE_tf" />
         <item itemvalue="Python.Q_learning" />
         <item itemvalue="Python tests.Nosetests in Q_learning.py" />
-        <item itemvalue="Python.a" />
-        <item itemvalue="Python tests.Nosetests in VAE.py" />
       </list>
     </recent_temporary>
   </component>
