@@ -17,7 +17,7 @@ class SpatialDropout(nn.Dropout2d):
 
 class  LSTMNet(nn.Module):
     def __init__(self, embedding_matrix, num_aux_targets):
-        super(LSTMNet,self),__init__()
+        super(LSTMNet,self).__init__()
         embed_size = embedding_matrix.shape[-1]
 
         self.embedding = nn.Embedding(max_features, embed_size)
@@ -43,7 +43,7 @@ class  LSTMNet(nn.Module):
         x,_ = self.lstm2(x)
 
         x_mean = torch.mean(x, 1) 
-        x_max = torch.max(x, 1)
+        x_max,_ = torch.max(x, 1)
 
         x_out = torch.cat((x_mean, x_max), 1)
         h_1 = F.relu(self.fc1(x_out))
