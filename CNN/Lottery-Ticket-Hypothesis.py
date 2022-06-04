@@ -60,5 +60,31 @@ def prune_by_percentile(percent, resample=False, reinit=False,**kwargs):
     step = 0
 
 
+## 模型训练
+def train(model, train_loader, optimizer, criterion):
+    EPS = 1e-6
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    model.train()
+    for batch_idx, (imgs, targets) in enumerate(train_loader):
+        optimizer.zero_grad()
+        #imgs, targets = next(train_loader)
+        imgs, targets = imgs.to(device), targets.to(device)
+        output = model(imgs)
+        train_loss = criterion(output, targets)
+        train_loss.backward()
+
+        # Freezing Pruned weights by making their gradients Zero [Pruned weights本身也为0]
+        for name, p in model.named_parameters():
+            if 'weight' in name:
+                tensor = p.data.cpu().numpy()
+                grad_tensor = p.grad.data.cpu().numpy()
+                grad_tensor = np.where(tensor < EPS, 0, grad_tensor)
+                p.grad.data = torch.from_numpy(grad_tensor).to(device)
+
+        optimizer.step()
+
+    return train_loss.item()
+
+
 
 
