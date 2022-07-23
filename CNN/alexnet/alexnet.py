@@ -1,92 +1,90 @@
-import torch.nn as nn
-import torch.utils.model_zoo as model_zoo
+# -*- coding: utf-8 -*-
+import random
+import gym
+import numpy as np
+from collections import deque
+from keras.models import Sequential
+from keras.layers import Dense
+from keras.optimizers import Adam
 
-from weight_init import weight_init
+EPISODES = 1000
 
+class DQNAgent:
+    def __init__(self, state_size, action_size):
+        self.state_size = state_size
+        self.action_size = action_size
+        self.memory = deque(maxlen=2000)
+        self.gamma = 0.95    # discount rate
+        self.epsilon = 1.0  # exploration rate
+        self.epsilon_min = 0.01
+        self.epsilon_decay = 0.995
+        self.learning_rate = 0.001
+        self.model = self._build_model()
 
-class AlexNet(nn.Module):
-    def __init__(self, num_class=1000):
-        super(AlexNet, self).__init__()
-        self.feature = nn.Sequential(
-            nn.Conv2d(3, 64, kernel_size=11, stride=4, padding=2),
-            nn.ReLU(inplace=True),
-            nn.MaxPool2d(kernel_size=3, stride=2),
-            nn.Conv2d(64, 192, kernel_size=5, padding=2),
-            nn.ReLU(inplace=True),
-            nn.MaxPool2d(kernel_size=3, stride=2),
-            nn.Conv2d(192, 384, kernel_size=3, padding=1),
-            nn.ReLU(inplace=True),
-            nn.Conv2d(384, 256, kernel_size=3, padding=1),
-            nn.ReLU(inplace=True),
-            nn.Conv2d(256, 256, kernel_size=3, padding=1),
-            nn.ReLU(inplace=True),
-            nn.MaxPool2d(kernel_size=3, stride=2),
-        )
+    def _build_model(self):
+        # Neural Net for Deep-Q learning Model
+        model = Sequential()
+        model.add(Dense(24, input_dim=self.state_size, activation='relu'))
+        model.add(Dense(24, activation='relu'))
+        model.add(Dense(self.action_size, activation='linear'))
+        model.compile(loss='mse',
+                      optimizer=Adam(lr=self.learning_rate))
+        return model
 
-        self.classifier = nn.Sequential(
-            nn.Dropout(),
-            nn.Linear(256 * 6 * 6, 4096),
-            nn.ReLU(inplace=True),
-            nn.Dropout(),
-            nn.Linear(4096, 4096),
-            nn.ReLU(inplace=True),
-            nn.Linear(4096, num_class)
-        )
+    def memorize(self, state, action, reward, next_state, done):
+        self.memory.append((state, action, reward, next_state, done))
 
-    def forward(self, x):
-        x = self.feature(x)
-        x = x.reshape(x.size(0), 256 * 6 * 6)
-        x = self.classifier(x)
-        return x
+    def act(self, state):
+        if np.random.rand() <= self.epsilon:
+            return random.randrange(self.action_size)
+        act_values = self.model.predict(state)
+        return np.argmax(act_values[0])  # returns action
 
+    def replay(self, batch_size):
+        minibatch = random.sample(self.memory, batch_size)
+        for state, action, reward, next_state, done in minibatch:
+            target = reward
+            if not done:
+                target = (reward + self.gamma *
+                          np.amax(self.model.predict(next_state)[0]))
+            target_f = self.model.predict(state)
+            target_f[0][action] = target
+            self.model.fit(state, target_f, epochs=1, verbose=0)
+        if self.epsilon > self.epsilon_min:
+            self.epsilon *= self.epsilon_decay
 
-model_urls = {"alexnet": "https://downlod.pytorch.org/models/alexnet-owt-4df8aa71.pth", }
+    def load(self, name):
+        self.model.load_weights(name)
 
-
-def alexnet(pretrained=False, model_root=None, **kwargs):
-    model = AlexNet(**kwargs)
-    if pretrained:
-        model.load_state_dict(model_zoo.load_url(model_urls["alexnet"]), model_root)
-    return model
-
-
-model = AlexNet(1000)
-# from torchsummary import summary
-# summary(model,(3,224,224))
-# print(model)
-
-for module in model.children():
-    module.apply(weight_init)
-
-import torch
-
-use_gpu = torch.cuda.is_available()
-if use_gpu:
-    model = model.cuda()
-    print("Gpu")
-else:
-    print("Cpu")
-
-criterion = nn.CrossEntropyLoss(size_average=False)
-optimizer = torch.optim.Adam(model.parameters(), lr=1e-3, betas=(0.9, 0.99))
-
-train_loader  = None
-from torch.autograd import Variable
-def train(epoch):
-    model.train()
-    for batch_idx, (data, target) in enumerate(train_loader):
-        if use_gpu:
-            data, target = data.cuda(), target.cuda()
-        data, target = Variable(data), Variable(target)
-        optimizer.zero_grad()
-        output = model(data)
-        loss = criterion(target, output)
-        loss.backward()
-        optimizer.step()
-        if batch_idx % 100 == 0:
-            print(
-                f"Train Epoch:{epoch} [{batch_idx * len(data)}/{len(train_loader.dataset)} ({100. * batch_idx / len(train_loader):.0f}%)]\tloss: {loss.data[0]:.6f}")
+    def save(self, name):
+        self.model.save_weights(name)
 
 
-for epoch in range(1,5):
-    train(epoch)
+if __name__ == "__main__":
+    env = gym.make('CartPole-v1')
+    state_size = env.observation_space.shape[0]
+    action_size = env.action_space.n
+    agent = DQNAgent(state_size, action_size)
+    # agent.load("./save/cartpole-dqn.h5")
+    done = False
+    batch_size = 32
+
+    for e in range(EPISODES):
+        state = env.reset()
+        state = np.reshape(state, [1, state_size])
+        for time in range(500):
+            # env.render()
+            action = agent.act(state)
+            next_state, reward, done, _ = env.step(action)
+            reward = reward if not done else -10
+            next_state = np.reshape(next_state, [1, state_size])
+            agent.memorize(state, action, reward, next_state, done)
+            state = next_state
+            if done:
+                print("episode: {}/{}, score: {}, e: {:.2}"
+                      .format(e, EPISODES, time, agent.epsilon))
+                break
+            if len(agent.memory) > batch_size:
+                agent.replay(batch_size)
+        # if e % 10 == 0:
+        #     agent.save("./save/cartpole-dqn.h5")
