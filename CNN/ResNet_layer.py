@@ -2,6 +2,10 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+"""
+resnet Implementation
+"""
+
 class BasicBlock(nn.Module):
     def __init__(self, in_channel, out_channel, stride=1, kernel_size=3):
         super(BasicBlock, self).__init__()
