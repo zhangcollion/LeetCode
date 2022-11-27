@@ -3,14 +3,14 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 class BasicBlock(nn.Module):
-    def __init__(self, in_channel, out_channel, stride, kernel_size):
+    def __init__(self, in_channel, out_channel, stride=1, kernel_size=3):
         super(BasicBlock, self).__init__()
         self.in_channel = in_channel
         self.out_channel = out_channel
         self.kernel_size = kernel_size
-        self.conv1 = nn.Conv2d(in_channel, self.out_channel , self.kernel_size,stride, padding=1)
+        self.conv1 = nn.Conv2d(in_channel, self.out_channel ,self.kernel_size,stride, padding=1)
         self.bn1 = nn.BatchNorm2d()
-        self.conv2 = nn.Conv2d(self.out_channel, self.out_channel, self.kernel_size, padding=1)
+        self.conv2 = nn.Conv2d(self.out_channel, self.out_channel, self.kernel_size, stride, padding=1)
         self.bn2 = nn.BatchNorm2d()
         self.act = nn.ReLU()
 
@@ -60,10 +60,6 @@ class ResNet(nn.Module):
         x = self.fc(x)
         x = self.act(x)
         return x
-
-        x = self.out_conv(x)
-        out = self.act(x)
-        return out
 
 
 
