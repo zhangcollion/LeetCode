@@ -5,6 +5,7 @@ import torch.nn.functional as F
 
 def UnetModel(nn.Module):
     def __init__(self, out_channels, n_class): #out_channels=[64,128,256,512,1024]
+        super(UnetModel, self).__init__()
         self.n_class = n_class
         self.double_conv = DoubleConv(1, out_channels[0])
         self.down_conv1 = DownConv(out_channels[0], out_channels[1])
