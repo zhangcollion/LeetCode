@@ -5,8 +5,9 @@ from torchvision import models
 
 
 class BYOLModel(self.Module):
-    def __init__(self, base_model, dim=128):
+    def __init__(self, base_model, dim=128, tau=0.06):
         super(BYOLModel, self).__init__()
+        self.tau = tau
         self.online_encoder = base_model(num_classes=dim)
         self.target_encoder = base_model(num_classes=dim)
         for online_paras, target_paras in zip(self.online_encoder.parameters(),self.target_encoder.parameters()):
@@ -26,4 +27,21 @@ class BYOLModel(self.Module):
         x1 = self.online_encoder(x1)
         x1 = self.online_proj(x1)
         x1_latent = self.online_predict(x1)
+
+
+    def _momentum_update_key_encoder(self):
+        for param_q, param_k in zip(self.online_encoder.parameters(), self.target_encoder.parameters()):
+            param_k.data = param_k.data * self.tau + param_q.data*(1.-self.tau)
+
+    def _momentum_update_key_projection(self):
+        for param_q, param_k in zip(self.online_proj.parameters(), self.target_proj.parameters()):
+            param_k.data = param_k.data * self.tau + param_q.data*(1.-self.tau)
+
+
+def BYOLoss(predict_q, project_k):
+    norm_q = F.normalize(predict_q, dim=1)
+    norm_k = F.normalize(predict_k, dim=1)
+    critetion = nn.MSEloss()
+    loss = critetion(norm_q, norm_k)
+    return loss
 
