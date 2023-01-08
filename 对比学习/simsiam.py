@@ -47,7 +47,7 @@ def calc_loss(p1, z2):
     
 
 optimizer = torch.optim.SGD(model.parameters(), lr=0.01, momentum=0.9)
-scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, step_size=30, gamma=0.1)
+scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer)
 
 
 
