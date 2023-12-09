@@ -1,0 +1,6 @@
+DEBUG:root:this is a bug
+DEBUG:root:ht
+INFO:root:ongo
+INFO:__main__:this is foo
+INFO:root:ongo
+INFO:root:root logger
