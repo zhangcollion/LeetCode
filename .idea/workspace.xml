@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bf27ba6-2ba0-4d93-a2b1-28b882e52b61" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OneNote_data/我的笔记本/OneNote_RecycleBin/新分区 1.one" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OneNote_data/我的笔记本/OneNote_RecycleBin/新分区 2.one" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/自动驾驶/E2E.one" beforeDir="false" afterPath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/自动驾驶/E2E.one" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/自动驾驶/预测.one" beforeDir="false" afterPath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/自动驾驶/预测.one" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneNote_data/机器学习/框架技巧.one" beforeDir="false" afterPath="$PROJECT_DIR$/OneNote_data/机器学习/框架技巧.one" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneNote_data/机器学习/算法.one" beforeDir="false" afterPath="$PROJECT_DIR$/OneNote_data/机器学习/算法.one" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_pattern/class_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_pattern/class_static.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,17 +144,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.class_static.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/github/LeetCode&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.class_static.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/github/code/pluto-main/pluto-main",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\ML\PYLearn\RL\sac_code" />
