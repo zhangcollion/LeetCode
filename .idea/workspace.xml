@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bf27ba6-2ba0-4d93-a2b1-28b882e52b61" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/OneNote_data/我的笔记本/OneNote_RecycleBin/新分区 1.one" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneNote_data/我的笔记本/OneNote_RecycleBin/新分区 2.one" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/自动驾驶/E2E.one" beforeDir="false" afterPath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/自动驾驶/E2E.one" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/自动驾驶/预测.one" beforeDir="false" afterPath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/自动驾驶/预测.one" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformer/attention.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PYLearn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PYLearn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/diffusion.one" beforeDir="false" afterPath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/diffusion.one" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/图像.one" beforeDir="false" afterPath="$PROJECT_DIR$/OneNote_data/机器学习/机器学习/图像.one" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,8 +153,8 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/github/code/pluto-main/pluto-main",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "last_opened_file_path": "E:/github/LeetCode",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -595,6 +597,10 @@
           <url>file://$PROJECT_DIR$/LeetCode/solveNQueens.py</url>
           <line>100</line>
           <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/transformer/diffusion_model.py</url>
+          <option name="timeStamp" value="160" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
